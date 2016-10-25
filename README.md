@@ -4,6 +4,8 @@
 
 To start :
 
+  * install Erlang, Elixir and mix `brew install erlang elixir`
+  * install Phoenix `mix archive.install https://github.com/phoenixframework/archives/raw/master/phoenix_new.ez`
   * Install Postgresql `brew update && brew install postgres`
   * Create Postgres user `createuser postgres --login --createdb --pwprompt`. When prompted to enter and confirm a password, enter `postgres`
   * Install brunch.io globally `npm install -g brunch`
