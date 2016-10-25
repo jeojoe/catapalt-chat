@@ -1,8 +1,11 @@
-# CatapaltChat
+# Catapalt Chat 
 
-To start your Phoenix app:
+To start :
 
-  * Install dependencies with `mix deps.get`
+  * Install Postgresql `brew update && brew install postgres`
+  * Create Postgres user `createuser postgres --login --createdb --pwprompt`. When prompted to enter and confirm a password, enter `postgres`
+  * Install brunch.io globally `npm install -g brunch`
+  * In project directory, install dependencies with `mix deps.get`
   * Create and migrate your database with `mix ecto.create && mix ecto.migrate`
   * Install Node.js dependencies with `npm install`
   * Start Phoenix endpoint with `mix phoenix.server`
